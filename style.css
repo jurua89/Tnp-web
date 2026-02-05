@@ -1,11 +1,12 @@
 .head-section {
-  color: radial-gradient(circle, lightblue, #800000);
+  background-color: radial-gradient(circle, lightblue, #800000);
   padding: 10px;
   text-align: center;
 }
 
 
 header p{
+  font-family: 'open-sans' Sans-Serif;
   color: midnightblue;
   font-size: 20px;
   font-weight: 800;
@@ -13,6 +14,7 @@ header p{
 }
 
 header h1 {
+  font-family: 'Montserrat', Sans-Serif;
   font-size: 40px;
   color: darkred;
   margin: 0;
@@ -23,9 +25,60 @@ hr {
 }
 
 nav {
+  text-decoration: ;:none;
   display: flex;
   justify-content: center;
   text-align: center;
-  text-decoration: none;
+  
 }
+body {
+  background-color: #FDF5E6;
+}
+
+main {
+  padding: 5px
+}
+
+.mission-vision > p {
+  font-size: 18px;
+  font-weight: 600;
+  color:#1B263B;
+  
+}
+
+.mission-vision > h2 {
+  Color: midnightblue;
+  margin: 0;
+  margin-top: 10px;
+}
+.mission-section {
+  padding: 5px;
+  display: block;
+  justify-content: left;
+  max-width: 25%;
+  background-color:#1B263B;
+  text-align: center;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+}
+.mission-section > h3 {
+  padding: 0;
+  margin: 0;
+  margin-top: 5px;
+  color:#FFFFFF;
+}
+
+.mission-section > h2 {
+  color: #FDF5E6;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.mission-section > p {
+  color: #FDF5E6;
+  margin: 0;
+  margin-top: 5px;
+}
+
+
 
