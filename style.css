@@ -44,6 +44,13 @@ hr {
   color:#C5A059;
 }
 
+nav {
+  text-decoration: ;:none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 body {
   background-color: #FDF5E6;
 }
@@ -51,6 +58,7 @@ body {
 main {
   padding: 5px
 }
+
 .mission-vision > p {
   font-size: 18px;
   font-weight: 600;
@@ -60,9 +68,11 @@ main {
 
 .mission-vision > h2 {
   Color: darkred;
+  Color: midnightblue
   margin: 0;
   margin-top: 10px;
 }
+
 .mission-section {
   display: flex;
   gap: 20px;
@@ -96,9 +106,30 @@ main {
 
 .pillar:last-of-type {
   border: 2px solid #FDF5E6;
+  padding: 5px;
+  display: block;
+  justify-content: left;
+  max-width: 25%;
+  background-color:#1B263B;
+  text-align: center;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+}
+.mission-section > h3 {
+  padding: 0;
+  margin: 0;
+  margin-top: 5px;
+  color:#FFFFFF;
 }
 
+.mission-section > h2 {
+  color: #FDF5E6;
+  margin: 0;
+  margin-bottom: 20px;
+}
 
-
-
-
+.mission-section > p {
+  color: #FDF5E6;
+  margin: 0;
+  margin-top: 5px;
+}
