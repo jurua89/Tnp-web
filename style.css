@@ -1,0 +1,104 @@
+.head-section {
+  background-color: radial-gradient(circle, lightblue, #800000);
+  padding: 10px;
+  text-align: center;
+}
+
+
+header p{
+  font-family: 'open-sans' Sans-Serif;
+  color: midnightblue;
+  font-size: 20px;
+  font-weight: 800;
+  margin: 2px 0;
+}
+
+header h1 {
+  font-family: 'Montserrat', Sans-Serif;
+  font-size: 40px;
+  color: darkred;
+  margin: 0;
+}
+
+hr {
+  border: 1px solid #505050;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color:#FDF5E6;
+  font-weight: 800;
+  border: 2px solid #C5A059;
+  border-radius: 5px;
+  background-color:#1B263B;
+  padding: 3px;
+}
+
+.navigation a:hover {
+  color:#C5A059;
+}
+
+body {
+  background-color: #FDF5E6;
+}
+
+main {
+  padding: 5px
+}
+.mission-vision > p {
+  font-size: 18px;
+  font-weight: 600;
+  color:#1B263B;
+  
+}
+
+.mission-vision > h2 {
+  Color: darkred;
+  margin: 0;
+  margin-top: 10px;
+}
+.mission-section {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.pillar label {
+  color: #FDF5E6;
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0 auto;
+}
+
+.pillar {
+  flex: 1;
+  background-color: #1B263B;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.pillar P {
+  color: #FDF5E6;
+  font-weight: 500;
+}
+
+.label-legend {
+  text-align: center;
+  color: darkred;
+}
+
+.pillar:last-of-type {
+  border: 2px solid #FDF5E6;
+}
+
+
+
+
+
