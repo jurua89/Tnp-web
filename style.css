@@ -1,27 +1,26 @@
 .head-section {
-  background-color: radial-gradient(circle, lightblue, #800000);
   padding: 10px;
   text-align: center;
 }
 
-
-header p{
-  font-family: 'open-sans' Sans-Serif;
-  color: midnightblue;
-  font-size: 20px;
-  font-weight: 800;
+header h1 {
+  font-family: 'Montserrat' Sans-Serif;
+  color: #f7f7f6;
+  font-size: 30px;
+  font-weight: 1000;
   margin: 2px 0;
 }
 
-header h1 {
+header p {
   font-family: 'Montserrat', Sans-Serif;
-  font-size: 40px;
-  color: darkred;
+  font-size: 20px;
+  font-weight: 500;
+  color: #f7f7f6;
   margin: 0;
 }
 
 hr {
-  border: 1px solid #505050;
+  border: 1px solid #fff;
 }
 
 .navigation {
@@ -32,27 +31,27 @@ hr {
 
 .navigation a {
   text-decoration: none;
-  color:#FDF5E6;
+  color:#f2f2f2;
   font-weight: 800;
-  border: 2px solid #C5A059;
   border-radius: 5px;
-  background-color:#1B263B;
+  background-color:#121212;
   padding: 3px;
 }
 
 .navigation a:hover {
-  color:#C5A059;
+  color: gold;
 }
 
 nav {
-  text-decoration: ;:none;
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
 body {
-  background-color: #FDF5E6;
+  max-width: 100%;
+  padding: 10px;
+  background-color: #a42424;
 }
 
 main {
@@ -62,13 +61,12 @@ main {
 .mission-vision > p {
   font-size: 18px;
   font-weight: 600;
-  color:#1B263B;
+  color:#f7f7f6;
   
 }
 
 .mission-vision > h2 {
-  Color: darkred;
-  Color: midnightblue
+  Color: #f7f7f6;
   margin: 0;
   margin-top: 10px;
 }
@@ -77,7 +75,6 @@ main {
   display: flex;
   gap: 20px;
   width: 100%;
-  padding: 10px;
   box-sizing: border-box;
 }
 .pillar label {
@@ -89,31 +86,48 @@ main {
 
 .pillar {
   flex: 1;
-  background-color: #1B263B;
+  background-color: #121212;
   border-radius: 10px;
-  padding: 10px;
   text-align: center;
+  max-width: 100%;
+  padding: 10px;
 }
 .pillar P {
-  color: #FDF5E6;
+  color: #f2f2f2;
   font-weight: 500;
 }
+.scripture {
+  margin-top: 60px;
+}
+
 
 .label-legend {
   text-align: center;
-  color: darkred;
+  color: #f7f7f6;
 }
 
-.pillar:last-of-type {
-  border: 2px solid #FDF5E6;
-  padding: 5px;
-  display: block;
-  justify-content: left;
-  max-width: 25%;
-  background-color:#1B263B;
-  text-align: center;
-  border: 1px solid lightblue;
+footer {
+  padding: 20px;
+  background-color: #121212;
+  margin-top: 20px;
   border-radius: 10px;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20PX;
+}
+.social-links img {
+  object-fit: contain;
+  display: block;
+}
+
+footer a {
+  display: flex;
+  justify-content: inline;
+  gap: 40px;
+  text-decoration: none;
+  color:#f2f2f2;
 }
 .mission-section > h3 {
   padding: 0;
@@ -123,13 +137,19 @@ main {
 }
 
 .mission-section > h2 {
-  color: #FDF5E6;
+  color: #ffd6d6;
   margin: 0;
   margin-bottom: 20px;
 }
 
 .mission-section > p {
-  color: #FDF5E6;
+  color: #f2f2f2;
   margin: 0;
   margin-top: 5px;
 }
+
+footer p {
+  color:#f2f2f2;
+  text-align: center;
+}
+
